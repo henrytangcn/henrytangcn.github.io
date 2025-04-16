@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --stellar-dark: #0a1128;
+  --stellar-darker: #050a18;
+  --stellar-gold: #d4af37;
+}
+
+body {
+  color: white;
+  background: var(--stellar-darker);
+  overflow-x: hidden;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px var(--stellar-gold), 0 0 20px var(--stellar-gold), 0 0 30px var(--stellar-gold);
+  transition: text-shadow 0.5s ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
