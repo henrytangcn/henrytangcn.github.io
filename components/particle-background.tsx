@@ -55,12 +55,6 @@ export default function ParticleBackground() {
             },
             opacity: {
               value: { min: 0.1, max: 0.3 },
-              anim: {
-                enable: true,
-                speed: 0.5,
-                opacity_min: 0.1,
-                sync: false,
-              },
             },
             shape: {
               type: "circle",
