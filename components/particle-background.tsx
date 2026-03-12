@@ -1,19 +1,13 @@
 "use client"
 
-import { useCallback } from "react"
 import Particles from "@tsparticles/react"
 import type { Engine } from "@tsparticles/engine"
 
 export default function ParticleBackground() {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    // Engine is automatically initialized with basic particles
-  }, [])
-
   return (
     <div className="absolute inset-0 z-0">
       <Particles
         id="tsparticles"
-        init={particlesInit}
         options={{
           fullScreen: {
             enable: false,
