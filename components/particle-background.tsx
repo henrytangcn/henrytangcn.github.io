@@ -61,7 +61,6 @@ export default function ParticleBackground() {
             },
             size: {
               value: { min: 1, max: 3 },
-              random: true,
             },
           },
           detectRetina: true,
