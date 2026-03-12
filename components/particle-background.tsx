@@ -54,8 +54,7 @@ export default function ParticleBackground() {
               value: 80,
             },
             opacity: {
-              value: 0.3,
-              random: true,
+              value: { min: 0.1, max: 0.3 },
               anim: {
                 enable: true,
                 speed: 0.5,
