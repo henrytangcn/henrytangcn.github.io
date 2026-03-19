@@ -28,3 +28,21 @@ Continue building your app on:
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
+
+## Development
+
+Install dependencies before running project scripts:
+
+```bash
+pnpm install
+```
+
+To check for lint errors run:
+
+```bash
+pnpm run lint
+```
+## TODO
+
+See [TODO.md](TODO.md) for upcoming tasks.
+
